@@ -1,0 +1,7 @@
+<!--<authentication-manager alias="authenticationManager">
+    <authentication-provider ref="projectsAuthentication" />
+</authentication-manager>
+
+
+<beans:bean id="projectsAuthentication" class="com.sihle.tangent.login.ProjectsAutentication">
+</beans:bean>  -->
