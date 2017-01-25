@@ -36,8 +36,13 @@ public class ProjectsAuthentication implements AuthenticationManager {
         HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<>(body, requestHeaders);
         ResponseEntity<String> response = restTemplate.exchange(REST_SERVICE_URI, HttpMethod.POST, request, String.class);
         
-        return new Token(response.getBody());
+        return new Token(extractTokenID(response.getBody()));
      
+	}
+	
+	private String extractTokenID(String token){
+		String tmpToken = token.substring(11, token.length() -2);
+		return tmpToken;
 	}
 
 }

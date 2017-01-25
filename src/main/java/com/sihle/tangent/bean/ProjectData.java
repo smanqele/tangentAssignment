@@ -1,5 +1,9 @@
 package com.sihle.tangent.bean;
 
-public class ProjectData {
+
+public class ProjectData extends BaseProject{
+
+	
+	
 
 }

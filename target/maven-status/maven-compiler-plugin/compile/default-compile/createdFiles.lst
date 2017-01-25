@@ -1,1 +1,5 @@
+com/sihle/tangent/login/Token.class
+com/sihle/tangent/service/ProjectService$Instance.class
+com/sihle/tangent/service/ProjectService.class
+com/sihle/tangent/bean/ProjectData.class
 com/sihle/tangent/login/ProjectsAuthentication.class
