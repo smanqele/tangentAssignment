@@ -1,4 +1,13 @@
-/home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/bean/ProjectData.java
+/home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/bean/Task.java
+/home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/bean/User.java
+/home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/service/SecurityService.java
 /home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/service/ProjectService.java
+/home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/bean/BaseProject.java
+/home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/controller/ApplicationController.java
 /home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/login/ProjectsAuthentication.java
+/home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/bean/Project.java
+/home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/validator/UserValidator.java
+/home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/bean/ProjectData.java
+/home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/bean/ProjectUserDetails.java
+/home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/service/SecurityServiceImpl.java
 /home/dev/app/tangent/tangentprojects/tangentprojects/src/main/java/com/sihle/tangent/login/Token.java

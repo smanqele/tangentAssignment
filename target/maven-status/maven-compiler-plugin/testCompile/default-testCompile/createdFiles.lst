@@ -1,0 +1,5 @@
+com/sihle/tangent/service/ProjectServiceTest.class
+com/sihle/tangent/login/ProjectsAuthenticationTest.class
+com/sihle/tangent/controller/ProjectControllerTest.class
+com/sihle/tangent/service/ProjectServiceTest$ServiceInstance.class
+com/sihle/tangent/bean/ProjectDataTest.class

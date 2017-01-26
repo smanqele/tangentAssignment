@@ -7,7 +7,7 @@ public class ProjectsAuthenticationTest {
 		
 	@Test
 	public void whenAccessingTokenURIGetToken(){
-		String token = new ProjectsAuthentication().authenticate("admin1", "admin1").token();
+		String token = ProjectsAuthentication.authenticate("admin1", "admin1").token();
 		Log(token);
 		assertFalse("Token must not be empty", token==null || token.isEmpty());
 	}
