@@ -18,8 +18,14 @@ public class Project extends BaseProject {
 	}
 	
 
-	
-	
-	
+	public boolean equals(Object proj){
+		if (proj != null && proj instanceof Project){
+			return (this.getPk() == ((Project)proj).getPk() &&
+					this.getTitle().equals(((Project)proj).getTitle() ));		
+		}
+		return false;
+	}
+
+
 
 }

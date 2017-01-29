@@ -15,6 +15,8 @@ public abstract class BaseProject {
 	private String end_date = null;
 	private boolean is_billable = true;
 	private boolean is_active = false;
+	private String status = null;
+	private String billable = null;
 	public int getPk() {
 		return pk;
 	}
@@ -59,6 +61,22 @@ public abstract class BaseProject {
 		this.is_active = is_active;
 	}
 	
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	
+	public String getStatus(){	    
+	    return status;
+	}
+	
+	public void setBillable(String billable){
+		this.billable = billable;
+	}
+	
+	
+	public String getBillable() {
+		return billable;
+	}
 	// Currently not used
 	private Date createDate(String dStr){
 		if (StringUtils.isEmpty(dStr)){

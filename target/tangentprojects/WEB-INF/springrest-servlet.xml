@@ -8,14 +8,23 @@
  <context:component-scan base-package="com.sihle.tangent" />
  
   <mvc:resources mapping="/resources/**" location="/resources/"/>
+  
+  	<bean id="messageSource"
+		class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename" value="validation" />
+	</bean>
+  
+  <bean id="taskValidator" class="com.sihle.tangent.validator.TaskValidator" />
+  <bean id="userValidator" class="com.sihle.tangent.validator.UserValidator" />
+   <bean id="projectValidator" class="com.sihle.tangent.validator.ProjectValidator" />
 
-  <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+  <!--   <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
       <property name="basenames">
             <list>
                 <value>classpath:validation</value>
             </list>
       </property>
-  </bean>
+  </bean> -->
   
   <bean class ="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
 
