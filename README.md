@@ -15,7 +15,7 @@ viii) javax.servlet api 3.1.0
 xi) Eclipse JEE IDE - Version Mars 2 Release 4.5.2 
 x) The internet connection. The application connects to the Tangent's back end services for authentication and project data
 using a combination of a resource URI and the REST tools privided by the Spring framework.
-Except for the Tomcat server and the internet, all the resources are listed in the maven pom file which will help with organize
+Except for the Tomcat server and the internet, all the resources are listed in the maven pom file which will help to organize
 these resources for you when you update the project.
 
 B. Project Installation
@@ -24,11 +24,12 @@ B. Project Installation
 (See http://www.tutorialspoint.com/articles/run-your-first-jsp-program-in-apache-tomcat-server
 or http://www.coreservlets.com/Apache-Tomcat-Tutorial/ on how to run applications using Tomcat. 
 That being said, any server of your choice, like Jetty or JBoss can suffice)
-2. Download / Pull the project to your local folder.
+2. Download / Pull the project to your local folder
+(see this page about how to do this: https://yangsu.github.io/pull-request-tutorial/)
 3. Locate the pom.xml file (at the root of the project)
 4. Using your favourate IDE or using command line, create a project 
 (Please see the following resource for an introduction on the steps to achieve this:
-http://blog.sonatype.com/2009/09/maven-tips-and-tricks-using-github/ )
+http://blog.sonatype.com/2009/09/maven-tips-and-tricks-using-github/  and http://www.mkyong.com/maven/how-to-create-a-java-project-with-maven/)
 5. After updating, cleaning and installing your project start the server.
 
 C. Running the application
