@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 
 public class ProjectsAuthentication {
 	
-	public static final String REST_SERVICE_URI = "http://userservice.staging.tangentmicroservices.com/api-token-auth/";
+	public static final String REST_SERVICE_URI = "URI for a token resource ";
 
 	public static Token authenticate(String username, String password) {
 		System.out.println("\nAuthenticating the user----------");
