@@ -17,7 +17,7 @@ import com.sihle.tangent.bean.Project;
 public class ProjectService {
 	
 	final static ProjectService INSTANCE = Instance.INSTANCE.SERV;
-	final static String URI = "http://projectservice.staging.tangentmicroservices.com/api/v1/projects/";
+	final static String URI = "URI for a resource";
 	
 	public static ProjectService instance(){
 		return INSTANCE;
